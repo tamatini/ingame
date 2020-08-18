@@ -1,0 +1,18 @@
+#zebar {
+    background-color: rgb(5, 56, 52);
+}
+
+#brand-logo img {
+    width: 2.2rem;
+    top: 0;
+}
+
+#acceuil-link, #config-link, #confort-link, #contact-link, #brand-logo {
+    color: rgb(231, 231, 231);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#acceuil-link:hover, #config-link:hover, #confort-link:hover, #contact-link:hover {
+
+    color: white;
+}

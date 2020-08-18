@@ -1,0 +1,35 @@
+#computer-bg {
+    z-index: 10;
+    height: 60vh;
+}
+
+h1 {
+    font-size: 3rem;
+    color:rgb(0, 183, 255)
+}
+
+span {
+    color: rgb(5, 56, 52)
+}
+
+#computer {
+    position: relative;
+    width: 40rem;
+    left: 7rem;
+    top: -8rem;
+    bottom: 0;
+    z-index: 10;
+}
+
+#config-block {
+    top: -2rem;
+    left: 7rem;
+    overflow: hidden;
+}
+
+#keyboard {
+    top: -5rem;
+    right: -20rem;
+    position: absolute;
+    z-index: -2;
+}

@@ -26,7 +26,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ingame"
+    }
+  },
+  "defaultProject": "ingame",
+  "cli": {
+    "analytics": "47aaf8ef-a955-443c-9f41-d151d6a64453"
+  }
 }

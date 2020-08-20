@@ -7,6 +7,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { LandingComponent } from './landing/landing.component';
 import { ComputerComponent } from './computer/computer.component';
 import { GamelistComponent } from './gamelist/gamelist.component';
+import { EmployesComponent } from './employes/employes.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { GamelistComponent } from './gamelist/gamelist.component';
     TopBarComponent,
     LandingComponent,
     ComputerComponent,
-    GamelistComponent
+    GamelistComponent,
+    EmployesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

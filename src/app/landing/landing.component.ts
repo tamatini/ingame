@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery'
 
 @Component({
-  selector: 'app-landing',
+  selector: 'landing',
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.css']
 })

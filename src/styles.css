@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
   
-h1, h5, p {
+h1, h5, p, a{
     font-family: 'Luckiest Guy', cursive;
     color: rgb(5, 56, 52);
 }

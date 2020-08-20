@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as $ from "jquery"
 
 @Component({
-  selector: 'app-computer',
+  selector: 'computer',
   templateUrl: './computer.component.html',
   styleUrls: ['./computer.component.css']
 })

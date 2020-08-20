@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { data } from 'jquery';
 
 @Component({
-  selector: 'app-gamelist',
+  selector: 'gamelist',
   templateUrl: './gamelist.component.html',
   styleUrls: ['./gamelist.component.css']
 })

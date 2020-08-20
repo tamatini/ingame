@@ -1,35 +1,31 @@
-#computer-bg {
-    z-index: 10;
-    height: 60vh;
-}
-
+/* computer container */
 h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     color:rgb(0, 183, 255)
 }
 
-span {
+span, p {
     color: rgb(5, 56, 52)
 }
 
-#computer {
-    position: relative;
-    width: 40rem;
-    left: 7rem;
-    top: -8rem;
-    bottom: 0;
+#computer-bg {
+    height: 50vh;
     z-index: 10;
 }
 
-#config-block {
-    top: -2rem;
-    left: 7rem;
-    overflow: hidden;
+
+#computer {
+    position: absolute;
+    width: 40rem;
+    z-index: 5;
 }
 
 #keyboard {
-    top: -5rem;
-    right: -20rem;
     position: absolute;
-    z-index: -2;
+    right: -5rem;
+    width: 40vw;
+}
+
+#image-container {
+    position: relative;
 }

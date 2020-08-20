@@ -1,88 +1,38 @@
+<!-- computer container -->
 <div id="computer-bg" class="container-fluid">
-    <div class="row mr-0 pr-0">
-        <div 
-        data-aos="fade-right"
-        data-aos-offset="50"
-        data-aos-delay="10"
-        data-aos-duration="600"
-        data-aos-easing="ease-in"
-        data-aos-mirror="false"
-        data-aos-once="false"
-        data-aos-anchor-placement="top">
-            <img src="assets/config_images/computer.png" id="computer">
-        </div>   
-        <div class="col-md-7" id="config-block">
-            <div class="row">
-                <div class="col-md">
-                    <div class="row justify-content-end">
-                        <div class="col-md text-center m-5">
-                            <h1
-                            data-aos="fade-up"
-                            data-aos-offset="50"
-                            data-aos-delay="100"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out-back"
-                            data-aos-mirror="false"
-                            data-aos-anchor-placement="top"
-                            id="config" class=""><span>N</span>os configs</h1>
-                        </div>
-                    </div>
-                    <div class="col-md">
-                        <div class="row justify-content-end">
-                            <div class="col-md"
-                                data-aos="fade-up"
-                                data-aos-offset="50"
-                                data-aos-delay="200"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out-back"
-                                data-aos-mirror="false"
-                                data-aos-anchor-placement="top">
-                                <h5><u>Processeurs: </u></h5>
-                                <p>AMD Ryzen 3800x</p>
-                            </div>
-                            <div class="col-md"
-                                data-aos="fade-up"
-                                data-aos-offset="50"
-                                data-aos-delay="300"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out-back"
-                                data-aos-mirror="false"
-                                data-aos-anchor-placement="top">
-                                <h5><u>Rams: </u></h5>
-                                <p>16Gb 3200Mhz DDR4</p>
-                            </div>
-                            <div class="col-md"
-                                data-aos="fade-up"
-                                data-aos-offset="50"
-                                data-aos-delay="400"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out-back"
-                                data-aos-mirror="false"
-                                data-aos-anchor-placement="top">
-                                <h5><u>Cartes graphiques: </u></h5>
-                                <p>GTX 1660 Super</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4" id="keyboard-block">
-                    <div 
-                    data-aos="fade-left"
-                    data-aos-offset="50"
-                    data-aos-delay="10"
-                    data-aos-duration="600"
-                    data-aos-easing="ease-in"
-                    data-aos-mirror="false"
-                    data-aos-once="false"
-                    data-aos-anchor-placement="top">
-                        <img src="assets/config_images/keyboard.png" id="keyboard">
-                    </div> 
-                </div>
+    <!---- image row ----->
+    <div class="container-fluid" id="image-container">
+        <div class="row">
+            <div class="col">
+                <img data-aos="fade-right" data-aos-delay="10" data-aos-easing="ease-in" src="assets/config_images/computer.png" id="computer">
             </div>
-            
-        </div>
-        
-        
+            <div class="col">
+                <img data-aos="fade-left" data-aos-delay="10" data-aos-duration="600" data-aos-easing="ease-in" src="assets/config_images/keyboard.png" id="keyboard">
+            </div>
+        </div> 
     </div>
-    <div class="container-fluid vh-100" id="computer-main"></div>
+    <!---- config row ---->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Title -->
+            <div class="col-md text-center mt-5">
+                <h1 data-aos="fade-up" data-aos-delay="100" id="config">Nos configs</h1>
+             </div>
+        </div>
+        <div class="row m-5">
+            <!-- specs -->
+            <div class="col">
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                    <p><span>Processeurs:</span> AMD Ryzen 3800x</p>
+                </div>
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+                    <p><span>Rams: </span> 16Gb 3200Mhz DDR4</p>
+                </div>
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="400">
+                    <p><span>Cartes graphiques: </span> GTX 1660 Super</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+
 </div>

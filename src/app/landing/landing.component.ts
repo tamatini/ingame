@@ -13,14 +13,13 @@ export class LandingComponent implements OnInit {
   ngOnInit(): void {
     $(document).ready(function() {
       $('.text-animate').css({
-        'transform': 'translate3d(0, 0, 0)',
-        'opacity': '1',
+        transform: 'translate3d(0, 0, 0)',
+        opacity: '1',
       });
       $('.gamer-animate').css({
-        'transform': 'translate3d(0, 0, 0)',
-        'opacity': '1'
+        transform: 'translate3d(0, 0, 0)',
+        opacity: '1'
       });
     });
-  };
-
-};
+  }
+}

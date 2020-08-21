@@ -18,21 +18,21 @@ export class GamelistComponent implements OnInit {
   private gameListUrl = 'https://v2-api.sheety.co/95862ff34677823d720e517ffb52817e/inGame/feuille1';
   public gameList: any = [];
 
-  getGameList() {
+  getGameList(): any {
     return this.http.get(this.gameListUrl);
   }
 
-  showGameList() {
-    this.getGameList()
-      .subscribe(data => {
-        for (const key in data)
+  showGameList(): any {
+    this.getGameList().subscribe(data => {
+        for (const key in data) {
           if (data.hasOwnProperty(key)) {
             this.gameList.push(data[key]);
-          };
-      })
+          }
+        }
+      });
   }
 
   ngOnInit(): void {
-    this.showGameList()
+    this.showGameList();
   }
 }

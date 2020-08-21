@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery'
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-landing',
@@ -11,7 +11,7 @@ export class LandingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    $(function() {
+    $(() => {
       $('.text-animate').css({
         transform: 'translate3d(0, 0, 0)',
         opacity: '1',

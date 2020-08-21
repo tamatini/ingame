@@ -11,7 +11,7 @@ export class LandingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    $(document).ready(function() {
+    $(function() {
       $('.text-animate').css({
         transform: 'translate3d(0, 0, 0)',
         opacity: '1',

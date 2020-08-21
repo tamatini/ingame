@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'employes-block',
+  selector: 'app-employes',
   templateUrl: './employes.component.html',
   styleUrls: ['./employes.component.css']
 })

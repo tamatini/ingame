@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'computer-block',
+  selector: 'app-computer',
   templateUrl: './computer.component.html',
   styleUrls: ['./computer.component.css']
 })

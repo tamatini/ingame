@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 
 
 @Component({
-  selector: 'gamelist-block',
+  selector: 'app-gamelist',
   templateUrl: './gamelist.component.html',
   styleUrls: ['./gamelist.component.css']
 })

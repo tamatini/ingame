@@ -19,22 +19,20 @@ export class GamelistComponent implements OnInit {
   public gameList: any = [];
 
   getGameList() {
-    return this.http.get(this.gameListUrl)
+    return this.http.get(this.gameListUrl);
   }
 
   showGameList() {
     this.getGameList()
       .subscribe(data => {
-        for (const key in data) {
+        for (const key in data)
           if (data.hasOwnProperty(key)) {
             this.gameList.push(data[key]);
-            err => { console.log(err) };
           };
-        }; 
-      });
+      })
   }
 
-  ngOnInit() : void {
+  ngOnInit(): void {
     this.showGameList()
   }
 }

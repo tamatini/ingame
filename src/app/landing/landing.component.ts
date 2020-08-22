@@ -1,12 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-
-@NgModule({
-  schemas: [
-    CUSTOM_ELEMENTS_SCHEMA
-  ]
-})
 
 @Component({
   selector: 'app-landing',
@@ -16,9 +9,6 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 export class LandingComponent implements OnInit {
 
   constructor() { }
-
-
-
 
   ngOnInit(): void {
     $(() => {

@@ -1,8 +1,4 @@
-import { Component, NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-
-@NgModule({
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
-})
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-main',

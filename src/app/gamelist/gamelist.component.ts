@@ -1,6 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
+@NgModule({
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ]
+})
 
 @Component({
   selector: 'app-gamelist',

@@ -75,6 +75,7 @@ h1 {
     right: 0;
     left: 0;
     clip-path: polygon(0 30%,100% 0,100% 90%,0 100%);
+    transition-duration: .3s;
 }
 
 #gamer {
@@ -96,6 +97,70 @@ h1 {
     position: absolute;
     top: 5rem;
     left: 8rem;
-    width: 40rem;
+    width: 40vw;
     opacity: 0.9;
+}
+
+
+/* responsive up to 1300px */
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+    #gamer {
+        display: none;
+    }
+
+    #logo {
+        width: 60vw;
+        top: 2rem;
+        left: 50%;
+        margin-left: -30vw;
+    }
+}
+
+/* responsive up to 800px */
+@media screen and (max-width: 850px) and (min-width:800px) {
+    #gamer {
+        display: none
+    }
+
+    #landing-title {
+        font-size: 12rem;
+    }
+
+    #logo {
+        width: 70vw;
+        margin-left: -30vw;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:850px) {
+    #gamer {
+        display: none;
+    }
+
+    #logo {
+        width: 70vw;
+
+    }
+}
+
+/* responsive up to 400px */
+@media screen and (max-width: 450px) {
+    #landing-title {
+        font-size: 5rem;
+    }
+
+    #sub-title {
+        font-size: 4rem;
+    }
+
+    #logo {
+        width: 70vw;
+        margin-left: -20vw;
+    }
+
+    #gamer {
+        display: none;
+        top: 3rem;
+        left: 50%/2;
+    }
 }

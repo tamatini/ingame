@@ -43,3 +43,24 @@ p {
     color: rgb(0, 183, 255);
     background-color: white; 
 }
+
+@media screen and (max-width: 1300px) {
+    #carte {
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    #carte {
+        width: auto;
+        height: auto;
+    }
+}

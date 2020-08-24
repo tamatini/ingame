@@ -1,7 +1,8 @@
 /* computer container */
 h1 {
     font-size: 6rem;
-    color:rgb(0, 183, 255)
+    color:rgb(0, 183, 255);
+    z-index: 10;
 }
 
 span, p {
@@ -10,14 +11,13 @@ span, p {
 
 #computer-bg {
     height: 50vh;
-    z-index: 10;
+
 }
 
 
 #computer {
     position: absolute;
-    width: 40rem;
-    z-index: 5;
+    width: 35vw;
 }
 
 #keyboard {
@@ -28,4 +28,57 @@ span, p {
 
 #image-container {
     position: relative;
+}
+
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+    #computer {
+        display: none;
+    }
+
+    #keyboard {
+        display: none;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width:400px) {
+    #computer {
+        display: none;
+    }
+
+    #keyboard {
+        display: none;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #computer {
+        display: none;
+    }
+
+    #keyboard {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 0
+    }
+
+    #computer-bg {
+        height: auto;
+    }
+
+    span, p {
+        font-size: 1.3rem;
+        margin: 2px;
+        padding: 0;
+    }
 }

@@ -18,6 +18,7 @@ span, p {
 #computer {
     position: absolute;
     width: 35vw;
+    z-index: 3;
 }
 
 #keyboard {
@@ -40,7 +41,11 @@ span, p {
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 6rem;
+    }
+
+    #computer-bg {
+        height: 40vh;
     }
 }
 
